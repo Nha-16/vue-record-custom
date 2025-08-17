@@ -7,7 +7,6 @@
       :rowsPerPageOptions="[5, 10, 20, 50]"
       tableStyle="min-width: 50rem"
     >
-      <Column field="name" header="Name" style="width: 25%"></Column>
       <Column header="Voice Record" style="width: 20%">
         <template #body="{ data }">
           <span style="cursor: pointer" @click="openDialog(data)">
@@ -16,6 +15,7 @@
           </span>
         </template>
       </Column>
+      <Column field="name" header="Name" style="width: 25%"></Column>
     </DataTable>
   </div>
 
