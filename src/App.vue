@@ -106,7 +106,7 @@ const customers = ref([
   },
   {
     id: 1001,
-    name: 'Josephine Darakjy',
+    name: 'Kon Tren',
     country: { name: 'Egypt', code: 'eg' },
     company: 'Chanay, Jeffrey A Esq',
     representative: { name: 'Amy Elsner' },
@@ -114,7 +114,7 @@ const customers = ref([
   },
   {
     id: 1002,
-    name: 'Art Venere',
+    name: 'Kon Khmer',
     country: { name: 'United States', code: 'us' },
     company: 'Chemel, James L Cpa',
     representative: { name: 'Asiya Javayant' },
